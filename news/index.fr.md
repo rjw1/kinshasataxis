@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default.fr
 title: News
 ---
 <ul>
