@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1507315-11', 'kinshasataxis.com');
+  ga('send', 'pageview');
+
+</script>
+        <div class="container">
+          <div class="site">
+            <div class="header">
+              <h1 class="title"><a href="/index.es.html">{{ site.name }}</a></h1>
+              <a class="extra" href="/index.es.html">home</a>
+              <a class="extra" href="/conductores">conductores</a>
+              <a class="extra" href="/coches">coches</a>
+              <a class="extra" href="/reservas">reservas</a>
+              <a class="extra" href="/actvidades">actvidades</a>
+              <a class="extra" href="/news/index.es.html">news</a>
+            </div>
+
+                {{ content }}
+
+            <div class="footer">
+              <div class="contact">
+                <p>
+                Telephone: 00 44 7778 762190<br />
+                Text: 00 44 7778 762190<br />
+                Email: <a href="mailto:colin@kinshasataxis.com">colin@kinshasataxis.com</a><br />
+                </p>
+              </div>
+            </div>
+          </div>
+            <div>  Other Languages: <a href="/"><img src="/assets/GB.32.png" alt="english" /></a><a href="/index.fr.html"><img src="/assets/FR.32.png" alt="french" /></a></div>
+        </div> <!-- /container -->
+
+    </body>
+</html>
